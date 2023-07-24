@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [apiMessage, setApiMessage] = useState("");
-  const apiUrl = "https://localhost:3000";
+  const apiUrl = "https://4ckxi4q4y8.execute-api.us-west-2.amazonaws.com/prod/";
 
   useEffect(() => {
     // Fetch the API data from the deployed API Gateway
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Super Simple React App</h1>
+        <h1>Simple React App</h1>
         <p>API Response: {apiMessage}</p>
       </div>
     </>
